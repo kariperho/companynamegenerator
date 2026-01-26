@@ -32,12 +32,11 @@ If there are bugs or issues, let me know.
 
 ## Authors
 
-Kari Perho
-https://github.com/kariperho
+Kari Perho - https://github.com/kariperho
 
 ## Version History
 
-* 0.2 - Planned
+* 0.2 - Planned WIP
     * Add more names to the list
 * 0.1
     * Initial Release
@@ -48,4 +47,4 @@ This project is licensed under the MIT License - see the LICENSE.md file for det
 
 ## Acknowledgments
 
----
+TBD
