@@ -10,9 +10,10 @@ height = 200
 
 prefixes = names_file["prefix"]
 suffixes = names_file["suffix"]
+extra_name = names_file["extra"]
 
 comp_name = "Name will appear here"
-new_name = ft.TextField(width=(width * 0.60), align=ft.Alignment.CENTER, text_align=ft.TextAlign.CENTER, value=comp_name, bgcolor=ft.Colors.random())
+new_name = ft.TextField(width=(width * 0.70), align=ft.Alignment.CENTER, text_align=ft.TextAlign.CENTER, value=comp_name, bgcolor=ft.Colors.random())
 
 def main(page:ft.Page):
     page.title = "Karppa's Name Generator"
@@ -25,7 +26,8 @@ def main(page:ft.Page):
 def generate():
     prefix = random.choice(prefixes)
     suffix = random.choice(suffixes)
-    comp_name = prefix + suffix
+    extra = random.choice(extra_name)
+    comp_name = str(prefix + suffix + extra)
 
     new_name.value=comp_name
     new_name.bgcolor=ft.Colors.random()

@@ -1,8 +1,9 @@
 {
     "prefix": ["Big", "Secu", "Delta", "Port", "River", "Apple", "Lean", "Large", "BIO", "Master", "Toy",
                 "Drinks", "Lunch", "Green", "MASSIVE", "Phone", "Games", "Cyber", "CYBER", "Harri", "Master",
-                "Soda", "Fountain"],
+                "Soda", "Fountain", "Ossi", "Otso", "UK", "Tea"],
     "suffix": ["Big", "Secu", "Delta", "Port", "River", "Apple", "Lean", "Large", "BIO", "Master", "Toy",
                 "Drinks", "Lunch", "Green", "MASSIVE", "Phone", "Games", "Industries", "Large", "Wonder",
-                "Bank", "Devices", "Spin", "Wallet", "Wallets"]
+                "Bank", "Devices", "Spin", "Wallet", "Wallets"],
+    "extra": ["", "", "", " Inc.", " Corporated", " Industries", " Works", " Labs", " Skunkworks", " Factories"]
 }
